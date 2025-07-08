@@ -1,0 +1,416 @@
+/* CSS ASSIGNMENT2 */
+
+/* HOMEPAGE */
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;}
+
+/* NAVIGATION BAR */
+
+.hero-header {
+  background-image: url('image/kids2.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 350px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.nav-wrapper {
+  position: relative;
+  height: 240px; 
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #ffff80;
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 500px;
+  height: 80px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+li {
+  float: right;
+}
+
+li a, .dropbtn1 {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  
+}
+
+li a:hover, .dropdown1:hover .dropbtn1 {
+  background-color:  #ffff4d;
+}
+
+li.dropdown1 {
+  display: inline-block;
+  
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+li a, .dropbtn2 {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown2:hover .dropbtn2 {
+  background-color:  #ffff4d;
+}
+
+li.dropdown2 {
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a:hover {background-color: #f1f1f1;}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+li.dropdown1, li.dropdown2 {
+  position: relative;
+}
+
+ul li a, .dropbtn1, .dropbtn2 {
+  font-size: 20px;
+
+}
+
+/* HEADER */
+
+.header-title{
+  h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 80px;
+  color:beige;
+  text-shadow: 2px 6px 9px black;
+  margin-top: 120px;
+  }
+}
+
+/* CONTENT 1 */
+
+.content1 {
+  background-color: #ffcccc;
+  margin-top: 0;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin:0;
+  padding:20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 26px;
+  text-align: center;
+  padding: 60px 80px;
+  line-height: 2.5;
+  max-width: 800px;
+
+  
+}
+
+.image-content1 {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  clip-path: circle(50%);
+  margin-top: 30px;
+  margin-right: 70px;
+}
+
+.image-content1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content1 {
+  background-color: #ffcccc;
+  margin-top: 0;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 30px;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.text-block p {
+  margin: 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 26px;
+  line-height: 2.5;
+}
+
+.link1 a:link,
+.link1 a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 18px 35px;   
+  font-size: 20px;
+  opacity: 0.85;
+}
+
+.link1 a:hover,
+.link1 a:active {
+  background-color: red;
+}
+
+.link1 {
+  text-align: center;
+  margin-top: -23px;
+}
+
+/* SECOND CONTENT */
+.content2 {
+  background-color: #b3e6ff;
+  padding: 60px 40px;
+  min-height: 600px;
+}
+
+.content2 h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #00334d;
+  margin-bottom: 40px;
+}
+
+.polaroid-gallery {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+.polaroid1 {
+  width: 22%; 
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding-bottom: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.polaroid1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.polaroid1:hover {
+  transform: rotate(-1.5deg) scale(1.03);
+}
+
+.caption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.caption a {
+  font-family: 'Lucida Console', monospace;
+  font-size: 16px;
+  color: #00334d;
+  text-decoration: none;
+  padding: 4px 10px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.caption a:hover {
+  color: #0077aa;
+  text-decoration: underline;
+}
+
+/* THIRD CONTENT */
+.content3 {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 500px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.content3:hover .image {
+  opacity: 0.3;
+}
+
+.content3:hover .middle {
+  opacity: 1;
+}
+
+.link-fadein {
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*FOOTER SECTION */
+
+.site-footer {
+  background-color: #00334d;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Lucida Console', monospace;
+}
+
+
+.social-icons p{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 14px;
+  margin: 2px 0 4px 0;}
+
+.social-icons {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.site-footer p {
+  margin: 6px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.site-footer a {
+  text-align: center;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.site-footer p {
+  text-align: center;
+  margin: 10px auto;
+  display: block;
+}
+
+.site-footer img {
+  display: block;
+  margin: 0 auto 5px auto;
+}
